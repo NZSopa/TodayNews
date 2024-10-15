@@ -2,9 +2,9 @@
 import styled from 'styled-components';
 
 const HeroContainer = styled.div`
-  background: url('https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg') no-repeat center center;
+  background: url('https://images.pexels.com/photos/273936/pexels-photo-273936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
   background-size: cover;
-  color: white;
+  color: black;
   text-align: left;
   padding: 100px 50px;
 `;
@@ -21,8 +21,8 @@ const HeroSubtitle = styled.p`
 const Hero = () => {
   return (
     <HeroContainer>
-      <HeroTitle>NATURE'S BALANCE</HeroTitle>
-      <HeroSubtitle>DISCOVERING THE SECRETS OF WELLNESS</HeroSubtitle>
+      <HeroTitle>Reading Bible everday</HeroTitle>
+      <HeroSubtitle>FOR GOD SO LOVED THE WORLD THAT HE GAVE HIS ONE AND ONLY SON, THAT WHOEVER BELIEVES IN HIM SHALL NOT PERISH BUT HAVE ETERNAL LIFE. - JOHN 3:16</HeroSubtitle>
     </HeroContainer>
   );
 };
